@@ -1,0 +1,16 @@
+.navbarList {
+    float: left;
+}
+
+/* Responsive Navbar reference: 
+https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive */
+
+@media screen and (max-width: 923px) {
+    .navbarList {
+        float: none;
+    }
+    li.navbarList:hover{
+        text-align: center;
+        position: sticky;
+    }
+  }

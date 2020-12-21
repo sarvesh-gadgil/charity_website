@@ -1,0 +1,10 @@
+/* Navbar reference:
+https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active */
+
+.navbarUnorderedList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}

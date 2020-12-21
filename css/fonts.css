@@ -1,0 +1,17 @@
+.header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+.subHeader {
+    font-family: monospace;
+    color: darkorange;
+    font-size: 28px
+}
+
+.bodyContents {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(96, 103, 109)
+}

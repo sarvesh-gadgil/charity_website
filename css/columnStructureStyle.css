@@ -1,0 +1,39 @@
+/* For gallery reference:
+ https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery */
+
+.columnStructureStyle {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 260px;
+    opacity: 1.0;
+}
+
+.columnStructureServicesStyle {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.columnStructureFooterStyle {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 130px;
+    color: white;
+    background-color: rgb(247, 137, 42);
+    padding: 10px;
+}
+
+div.columnStructureStyle:hover {
+    border: 1px solid rgb(242, 193, 174);
+    box-shadow: 0px 0px 3px 3px rgb(242, 193, 174);
+    opacity: 0.8;
+  }
+   

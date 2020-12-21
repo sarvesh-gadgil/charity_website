@@ -1,0 +1,31 @@
+/* Navbar reference:
+https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_active */
+
+.navbarLink {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+/* Used this to disable styling when user hovers over logo */
+.navbarLinkLogo {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+
+a.navbarLink:hover{
+    display: inline-block;
+    border-bottom: 5px solid rgb(247, 137, 42);
+    color: rgb(247, 137, 42);
+    font-weight: bolder;
+    text-align: center
+}
